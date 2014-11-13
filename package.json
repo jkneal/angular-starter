@@ -1,0 +1,27 @@
+{
+  "name": "angular-starter",
+  "version": "1.0.0",
+  "description": "angular-starter =============",
+  "main": "index.js",
+  "scripts": {
+    "all": "node --harmony scripts/all.js",
+    "start": "node --harmony server/app.js",
+    "watch": "nodemon --watch server --harmony server/app.js",
+    "lr": "node --harmony scripts/live-reload.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KualiCo/angular-starter.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KualiCo/angular-starter/issues"
+  },
+  "homepage": "https://github.com/KualiCo/angular-starter",
+  "devDependencies": {
+    "gulp-livereload": "^2.1.1",
+    "node-watch": "^0.3.4",
+    "webpack": "^1.4.13"
+  }
+}
